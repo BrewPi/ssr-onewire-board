@@ -138,8 +138,45 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>Generated from &lt;b&gt;ssr-breakout.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
 <packages>
-<package name="0204/5">
+<package name="1WIRE_TSOC6">
+<description>&lt;b&gt;TSOC 6&lt;/b&gt;</description>
+<circle x="-1.143" y="-1.016" radius="0.254" width="0.1524" layer="21"/>
+<wire x1="-1.8542" y1="1.8034" x2="1.8542" y2="1.8034" width="0.254" layer="21"/>
+<wire x1="1.8542" y1="1.8034" x2="1.8542" y2="-1.8034" width="0.254" layer="21"/>
+<wire x1="1.8542" y1="-1.8034" x2="-1.8542" y2="-1.8034" width="0.254" layer="21"/>
+<wire x1="-1.8542" y1="-1.8034" x2="-1.8542" y2="1.8034" width="0.254" layer="21"/>
+<rectangle x1="-1.3716" y1="-2.0828" x2="-1.1684" y2="-1.0668" layer="51"/>
+<rectangle x1="-0.1016" y1="-2.0828" x2="0.1016" y2="-1.0668" layer="51"/>
+<rectangle x1="1.1684" y1="-2.0828" x2="1.3716" y2="-1.0668" layer="51"/>
+<rectangle x1="1.1684" y1="1.0668" x2="1.3716" y2="2.0828" layer="51"/>
+<rectangle x1="-0.1016" y1="1.0668" x2="0.1016" y2="2.0828" layer="51"/>
+<rectangle x1="-1.3716" y1="1.0668" x2="-1.1684" y2="2.0828" layer="51"/>
+<smd name="1" x="-1.27" y="-1.6002" dx="0.4064" dy="1.2192" layer="1"/>
+<smd name="2" x="0" y="-1.6002" dx="0.4064" dy="1.2192" layer="1"/>
+<smd name="3" x="1.27" y="-1.6002" dx="0.4064" dy="1.2192" layer="1"/>
+<smd name="4" x="1.27" y="1.6002" dx="0.4064" dy="1.2192" layer="1"/>
+<smd name="5" x="0" y="1.6002" dx="0.4064" dy="1.2192" layer="1"/>
+<smd name="6" x="-1.27" y="1.6002" dx="0.4064" dy="1.2192" layer="1"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="WUERTH_ELEKTRONIK_EICAN_TERMINAL_BLOCKS_CONNECTORS_691411710002">
+<description>&lt;b&gt;WR-TBL Serie 411 - 5.0mm Screwless Horizontal Entry - 2 mm2 Wires, 2 Pins</description>
+<wire x1="2.9" y1="8.3" x2="-8.8" y2="8.3" width="0.127" layer="21"/>
+<wire x1="-8.8" y1="8.3" x2="-8.8" y2="-3.7" width="0.127" layer="21"/>
+<wire x1="-8.8" y1="-3.7" x2="2.9" y2="-3.7" width="0.127" layer="21"/>
+<wire x1="2.9" y1="-3.7" x2="2.9" y2="8.3" width="0.127" layer="21"/>
+<pad name="1" x="-5" y="0" drill="1.3"/>
+<pad name="2" x="0" y="0" drill="1.3"/>
+<pad name="3" x="0" y="4.8" drill="1.3"/>
+<pad name="4" x="-5" y="4.8" drill="1.3"/>
+<text x="-11.392" y="11.3141" size="1.27" layer="25">&gt;NAME</text>
+<text x="-11.392" y="-8.305" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="ADAFRUIT_0204/5">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0204, grid 5 mm</description>
 <wire x1="2.54" y1="0" x2="2.032" y2="0" width="0.508" layer="51"/>
@@ -167,7 +204,7 @@ type 0204, grid 5 mm</description>
 <text x="-2.0066" y="1.1684" size="0.9906" layer="25" ratio="12">&gt;NAME</text>
 <text x="-2.1336" y="-2.3114" size="0.9906" layer="27" ratio="12">&gt;VALUE</text>
 </package>
-<package name="0204/7">
+<package name="ADAFRUIT_0204/7">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0204, grid 7.5 mm</description>
 <wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
@@ -195,7 +232,7 @@ type 0204, grid 7.5 mm</description>
 <text x="-2.54" y="1.2954" size="0.9906" layer="25" ratio="12">&gt;NAME</text>
 <text x="-1.6256" y="-0.4826" size="0.9906" layer="27" ratio="12">&gt;VALUE</text>
 </package>
-<package name="0204V">
+<package name="ADAFRUIT_0204V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0204, grid 2.5 mm</description>
 <circle x="-1.27" y="0" radius="0.889" width="0.1524" layer="51"/>
@@ -207,7 +244,7 @@ type 0204, grid 2.5 mm</description>
 <text x="-2.1336" y="1.1684" size="1.27" layer="25" ratio="12">&gt;NAME</text>
 <text x="-2.1336" y="-2.3114" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
 </package>
-<package name="0207/2V">
+<package name="ADAFRUIT_0207/2V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 2.5 mm</description>
 <circle x="-1.27" y="0" radius="1.27" width="0.1524" layer="21"/>
@@ -220,7 +257,7 @@ type 0207, grid 2.5 mm</description>
 <text x="-0.0508" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.0508" y="-2.2352" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0207/5V">
+<package name="ADAFRUIT_0207/5V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 5 mm</description>
 <circle x="-2.54" y="0" radius="1.27" width="0.1016" layer="21"/>
@@ -233,7 +270,7 @@ type 0207, grid 5 mm</description>
 <text x="-1.143" y="0.889" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.143" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0207/7">
+<package name="ADAFRUIT_0207/7">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 7.5 mm</description>
 <wire x1="-3.81" y1="0" x2="-3.429" y2="0" width="0.6096" layer="51"/>
@@ -261,7 +298,7 @@ type 0207, grid 7.5 mm</description>
 <text x="-2.54" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-0.5588" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0207/10">
+<package name="ADAFRUIT_0207/10">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 10 mm</description>
 <wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.6096" layer="51"/>
@@ -289,7 +326,7 @@ type 0207, grid 10 mm</description>
 <text x="-3.048" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.2606" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0207/12">
+<package name="ADAFRUIT_0207/12">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 12 mm</description>
 <wire x1="6.35" y1="0" x2="5.334" y2="0" width="0.6096" layer="51"/>
@@ -321,7 +358,7 @@ type 0207, grid 12 mm</description>
 <text x="-3.175" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-0.6858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0207/15">
+<package name="ADAFRUIT_0207/15">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0207, grid 15mm</description>
 <wire x1="7.62" y1="0" x2="6.604" y2="0" width="0.6096" layer="51"/>
@@ -353,7 +390,7 @@ type 0207, grid 15mm</description>
 <text x="-3.175" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-0.6858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0309/10">
+<package name="ADAFRUIT_0309/10">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0309, grid 10mm</description>
 <wire x1="-4.699" y1="0" x2="-5.08" y2="0" width="0.6096" layer="51"/>
@@ -381,7 +418,7 @@ type 0309, grid 10mm</description>
 <text x="-4.191" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.6858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0309/12">
+<package name="ADAFRUIT_0309/12">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0309, grid 12.5 mm</description>
 <wire x1="6.35" y1="0" x2="5.08" y2="0" width="0.6096" layer="51"/>
@@ -409,7 +446,7 @@ type 0309, grid 12.5 mm</description>
 <text x="-4.191" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.6858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0309V">
+<package name="ADAFRUIT_0309V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0309, grid 2.5 mm</description>
 <circle x="-1.27" y="0" radius="1.524" width="0.1524" layer="21"/>
@@ -424,7 +461,7 @@ type 0309, grid 2.5 mm</description>
 <text x="0.254" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.254" y="-2.2098" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0411/12">
+<package name="ADAFRUIT_0411/12">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0411, grid 12.5 mm</description>
 <wire x1="6.35" y1="0" x2="5.461" y2="0" width="0.762" layer="51"/>
@@ -452,7 +489,7 @@ type 0411, grid 12.5 mm</description>
 <text x="-5.08" y="2.413" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.5814" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0411/15">
+<package name="ADAFRUIT_0411/15">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0411, grid 15 mm</description>
 <wire x1="5.08" y1="-1.651" x2="5.08" y2="1.651" width="0.1524" layer="21"/>
@@ -480,7 +517,7 @@ type 0411, grid 15 mm</description>
 <text x="-5.08" y="2.413" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.5814" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0411V">
+<package name="ADAFRUIT_0411V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0411, grid 3.81 mm</description>
 <circle x="-2.54" y="0" radius="2.032" width="0.1524" layer="21"/>
@@ -493,7 +530,7 @@ type 0411, grid 3.81 mm</description>
 <text x="-0.508" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.5334" y="-2.413" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0414/15">
+<package name="ADAFRUIT_0414/15">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0414, grid 15 mm</description>
 <wire x1="7.62" y1="0" x2="6.604" y2="0" width="0.8128" layer="51"/>
@@ -521,7 +558,7 @@ type 0414, grid 15 mm</description>
 <text x="-6.096" y="2.5654" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.318" y="-0.5842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0414V">
+<package name="ADAFRUIT_0414V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0414, grid 5 mm</description>
 <circle x="-2.54" y="0" radius="2.159" width="0.1524" layer="21"/>
@@ -534,7 +571,7 @@ type 0414, grid 5 mm</description>
 <text x="-0.381" y="1.1684" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.381" y="-2.3622" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0617/17">
+<package name="ADAFRUIT_0617/17">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0617, grid 17.5 mm</description>
 <wire x1="-8.89" y1="0" x2="-8.636" y2="0" width="0.8128" layer="51"/>
@@ -566,7 +603,7 @@ type 0617, grid 17.5 mm</description>
 <text x="-8.128" y="3.4544" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.096" y="-0.7112" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0617/22">
+<package name="ADAFRUIT_0617/22">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0617, grid 22.5 mm</description>
 <wire x1="-10.287" y1="0" x2="-11.43" y2="0" width="0.8128" layer="51"/>
@@ -594,7 +631,7 @@ type 0617, grid 22.5 mm</description>
 <text x="-8.255" y="3.4544" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.477" y="-0.5842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0617V">
+<package name="ADAFRUIT_0617V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0617, grid 5 mm</description>
 <circle x="-2.54" y="0" radius="3.048" width="0.1524" layer="21"/>
@@ -607,7 +644,7 @@ type 0617, grid 5 mm</description>
 <text x="0.635" y="1.4224" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.635" y="-2.6162" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0805-THM">
+<package name="ADAFRUIT_0805-THM">
 <wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.6096" layer="51"/>
 <wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.6096" layer="51"/>
 <wire x1="-3.175" y1="0.889" x2="-2.921" y2="1.143" width="0.1524" layer="21" curve="-90"/>
@@ -649,7 +686,7 @@ type 0617, grid 5 mm</description>
 <text x="-3.048" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.1306" y="-2.775" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0805-THM-7">
+<package name="ADAFRUIT_0805-THM-7">
 <wire x1="4.318" y1="0" x2="3.302" y2="0" width="0.6096" layer="51"/>
 <wire x1="-4.318" y1="0" x2="-3.302" y2="0" width="0.6096" layer="51"/>
 <wire x1="-2.413" y1="0.889" x2="-2.159" y2="1.143" width="0.1524" layer="21" curve="-90"/>
@@ -691,7 +728,7 @@ type 0617, grid 5 mm</description>
 <text x="-3.048" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.1306" y="-2.775" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0922/22">
+<package name="ADAFRUIT_0922/22">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0922, grid 22.5 mm</description>
 <wire x1="11.43" y1="0" x2="10.795" y2="0" width="0.8128" layer="51"/>
@@ -721,7 +758,7 @@ type 0922, grid 22.5 mm</description>
 <text x="-10.16" y="5.1054" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.477" y="-0.5842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="0922V">
+<package name="ADAFRUIT_0922V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0922, grid 7.5 mm</description>
 <circle x="-5.08" y="0" radius="4.572" width="0.1524" layer="21"/>
@@ -735,7 +772,7 @@ type 0922, grid 7.5 mm</description>
 <text x="-0.508" y="-2.9972" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-6.858" y="2.54" size="1.016" layer="21" ratio="12">0922</text>
 </package>
-<package name="M0805">
+<package name="ADAFRUIT_M0805">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 MELF 0.10 W</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
@@ -752,7 +789,7 @@ MELF 0.10 W</description>
 <text x="-1.016" y="1.016" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-2.286" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="M1206">
+<package name="ADAFRUIT_M1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 MELF 0.25 W</description>
 <wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
@@ -769,7 +806,7 @@ MELF 0.25 W</description>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="M1406">
+<package name="ADAFRUIT_M1406">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 MELF 0.12 W</description>
 <wire x1="-2.973" y1="0.983" x2="2.973" y2="0.983" width="0.0508" layer="39"/>
@@ -788,7 +825,7 @@ MELF 0.12 W</description>
 <text x="-1.651" y="1.143" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.651" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="M2012">
+<package name="ADAFRUIT_M2012">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 MELF 0.10 W</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
@@ -805,7 +842,7 @@ MELF 0.10 W</description>
 <text x="-1.016" y="1.016" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-2.286" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="M2309">
+<package name="ADAFRUIT_M2309">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 MELF 0.25 W</description>
 <wire x1="-4.473" y1="1.483" x2="4.473" y2="1.483" width="0.0508" layer="39"/>
@@ -824,7 +861,7 @@ MELF 0.25 W</description>
 <text x="-2.794" y="1.651" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.794" y="-2.794" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="M3216">
+<package name="ADAFRUIT_M3216">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 MELF 0.25 W</description>
 <wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
@@ -841,7 +878,7 @@ MELF 0.25 W</description>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="M3516">
+<package name="ADAFRUIT_M3516">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 MELF 0.12 W</description>
 <wire x1="-2.973" y1="0.983" x2="2.973" y2="0.983" width="0.0508" layer="39"/>
@@ -860,7 +897,7 @@ MELF 0.12 W</description>
 <text x="-1.651" y="1.143" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.651" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="M5923">
+<package name="ADAFRUIT_M5923">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 MELF 0.25 W</description>
 <wire x1="-4.473" y1="1.483" x2="4.473" y2="1.483" width="0.0508" layer="39"/>
@@ -879,7 +916,7 @@ MELF 0.25 W</description>
 <text x="-2.794" y="1.651" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.794" y="-2.794" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="MINI_MELF-0102AX">
+<package name="ADAFRUIT_MINI_MELF-0102AX">
 <description>&lt;b&gt;Mini MELF 0102 Axial&lt;/b&gt;</description>
 <circle x="0" y="0" radius="0.6" width="0" layer="51"/>
 <circle x="0" y="0" radius="0.6" width="0" layer="52"/>
@@ -889,7 +926,7 @@ MELF 0.25 W</description>
 <text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
 <hole x="0" y="0" drill="1.3"/>
 </package>
-<package name="MINI_MELF-0102R">
+<package name="ADAFRUIT_MINI_MELF-0102R">
 <description>&lt;b&gt;CECC Size RC2211&lt;/b&gt; Reflow Soldering&lt;p&gt;
 source Beyschlag</description>
 <wire x1="-1" y1="-0.5" x2="1" y2="-0.5" width="0.2032" layer="51"/>
@@ -901,7 +938,7 @@ source Beyschlag</description>
 <text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="MINI_MELF-0102W">
+<package name="ADAFRUIT_MINI_MELF-0102W">
 <description>&lt;b&gt;CECC Size RC2211&lt;/b&gt; Wave Soldering&lt;p&gt;
 source Beyschlag</description>
 <wire x1="-1" y1="-0.5" x2="1" y2="-0.5" width="0.2032" layer="51"/>
@@ -913,7 +950,7 @@ source Beyschlag</description>
 <text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="MINI_MELF-0204R">
+<package name="ADAFRUIT_MINI_MELF-0204R">
 <description>&lt;b&gt;CECC Size RC3715&lt;/b&gt; Reflow Soldering&lt;p&gt;
 source Beyschlag</description>
 <wire x1="-1.7" y1="-0.6" x2="1.7" y2="-0.6" width="0.2032" layer="51"/>
@@ -925,7 +962,7 @@ source Beyschlag</description>
 <text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="MINI_MELF-0204W">
+<package name="ADAFRUIT_MINI_MELF-0204W">
 <description>&lt;b&gt;CECC Size RC3715&lt;/b&gt; Wave Soldering&lt;p&gt;
 source Beyschlag</description>
 <wire x1="-1.7" y1="-0.6" x2="1.7" y2="-0.6" width="0.2032" layer="51"/>
@@ -937,7 +974,7 @@ source Beyschlag</description>
 <text x="-1.27" y="0.9525" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.2225" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="MINI_MELF-0207R">
+<package name="ADAFRUIT_MINI_MELF-0207R">
 <description>&lt;b&gt;CECC Size RC6123&lt;/b&gt; Reflow Soldering&lt;p&gt;
 source Beyschlag</description>
 <wire x1="-2.8" y1="-1" x2="2.8" y2="-1" width="0.2032" layer="51"/>
@@ -949,7 +986,7 @@ source Beyschlag</description>
 <text x="-2.2225" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.2225" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="MINI_MELF-0207W">
+<package name="ADAFRUIT_MINI_MELF-0207W">
 <description>&lt;b&gt;CECC Size RC6123&lt;/b&gt; Wave Soldering&lt;p&gt;
 source Beyschlag</description>
 <wire x1="-2.8" y1="-1" x2="2.8" y2="-1" width="0.2032" layer="51"/>
@@ -961,7 +998,7 @@ source Beyschlag</description>
 <text x="-2.54" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="P0613/15">
+<package name="ADAFRUIT_P0613/15">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0613, grid 15 mm</description>
 <wire x1="7.62" y1="0" x2="6.985" y2="0" width="0.8128" layer="51"/>
@@ -993,7 +1030,7 @@ type 0613, grid 15 mm</description>
 <text x="-6.477" y="2.6924" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.318" y="-0.7112" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="P0613V">
+<package name="ADAFRUIT_P0613V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0613, grid 5 mm</description>
 <circle x="-2.54" y="0" radius="2.286" width="0.1524" layer="21"/>
@@ -1006,7 +1043,7 @@ type 0613, grid 5 mm</description>
 <text x="-0.254" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.254" y="-2.413" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="P0817/22">
+<package name="ADAFRUIT_P0817/22">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0817, grid 22.5 mm</description>
 <wire x1="-10.414" y1="0" x2="-11.43" y2="0" width="0.8128" layer="51"/>
@@ -1035,7 +1072,7 @@ type 0817, grid 22.5 mm</description>
 <text x="-6.223" y="-0.5842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="6.604" y="-2.2606" size="1.27" layer="51" ratio="10" rot="R90">0817</text>
 </package>
-<package name="P0817V">
+<package name="ADAFRUIT_P0817V">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type 0817, grid 6.35 mm</description>
 <circle x="-5.08" y="0" radius="3.81" width="0.1524" layer="21"/>
@@ -1049,7 +1086,7 @@ type 0817, grid 6.35 mm</description>
 <text x="-1.016" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-6.858" y="2.032" size="1.016" layer="21" ratio="12">0817</text>
 </package>
-<package name="R0402">
+<package name="ADAFRUIT_R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
@@ -1066,7 +1103,7 @@ chip</description>
 <text x="-0.635" y="0.762" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R0603">
+<package name="ADAFRUIT_R0603">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
@@ -1083,7 +1120,7 @@ chip</description>
 <text x="-0.889" y="0.889" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.889" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R0805">
+<package name="ADAFRUIT_R0805">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
@@ -1100,7 +1137,7 @@ chip</description>
 <text x="-0.762" y="1.016" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.762" y="-2.286" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R0805W">
+<package name="ADAFRUIT_R0805W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip, wave soldering</description>
 <wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
@@ -1117,7 +1154,7 @@ chip, wave soldering</description>
 <text x="-0.635" y="1.016" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-2.159" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R1005">
+<package name="ADAFRUIT_R1005">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
@@ -1134,7 +1171,7 @@ chip</description>
 <text x="-0.635" y="0.762" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R1206">
+<package name="ADAFRUIT_R1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
@@ -1151,7 +1188,7 @@ chip</description>
 <text x="-1.397" y="1.143" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.397" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R1206W">
+<package name="ADAFRUIT_R1206W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip, wave soldering</description>
 <wire x1="-0.913" y1="0.8" x2="0.888" y2="0.8" width="0.1524" layer="21"/>
@@ -1168,7 +1205,7 @@ chip, wave soldering</description>
 <text x="-1.651" y="1.143" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.651" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R1210">
+<package name="ADAFRUIT_R1210">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
@@ -1185,7 +1222,7 @@ chip</description>
 <text x="-1.27" y="1.651" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.921" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R1210W">
+<package name="ADAFRUIT_R1210W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip, wave soldering</description>
 <wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="21"/>
@@ -1202,7 +1239,7 @@ chip, wave soldering</description>
 <text x="-1.651" y="1.524" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.651" y="-2.794" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R2010">
+<package name="ADAFRUIT_R2010">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="51"/>
@@ -1220,7 +1257,7 @@ chip</description>
 <text x="-2.159" y="1.651" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.159" y="-2.921" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R2010W">
+<package name="ADAFRUIT_R2010W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip, wave soldering</description>
 <wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="21"/>
@@ -1236,7 +1273,7 @@ chip, wave soldering</description>
 <text x="-2.286" y="1.524" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.286" y="-2.921" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R2012">
+<package name="ADAFRUIT_R2012">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
@@ -1253,7 +1290,7 @@ chip</description>
 <text x="-0.762" y="1.016" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.762" y="-2.286" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R2012W">
+<package name="ADAFRUIT_R2012W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip, wave soldering</description>
 <wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
@@ -1270,7 +1307,7 @@ chip, wave soldering</description>
 <text x="-0.635" y="1.016" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-2.286" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R2512">
+<package name="ADAFRUIT_R2512">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
@@ -1289,7 +1326,7 @@ chip</description>
 <text x="-2.667" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.667" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R2512W">
+<package name="ADAFRUIT_R2512W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip, wave soldering</description>
 <wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="21"/>
@@ -1306,7 +1343,7 @@ chip, wave soldering</description>
 <text x="-2.794" y="1.778" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.794" y="-3.048" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R3216">
+<package name="ADAFRUIT_R3216">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-0.913" y1="0.8" x2="0.888" y2="0.8" width="0.1524" layer="51"/>
@@ -1323,7 +1360,7 @@ chip</description>
 <text x="-1.397" y="1.143" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.397" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R3216W">
+<package name="ADAFRUIT_R3216W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip, wave soldering</description>
 <wire x1="-0.913" y1="0.8" x2="0.888" y2="0.8" width="0.1524" layer="21"/>
@@ -1340,7 +1377,7 @@ chip, wave soldering</description>
 <text x="-1.524" y="1.143" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.524" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R3225">
+<package name="ADAFRUIT_R3225">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
@@ -1357,7 +1394,7 @@ chip</description>
 <text x="-1.397" y="1.651" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.397" y="-2.921" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R3225W">
+<package name="ADAFRUIT_R3225W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip, wave soldering</description>
 <wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="21"/>
@@ -1374,7 +1411,7 @@ chip, wave soldering</description>
 <text x="-1.397" y="1.524" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.397" y="-2.921" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R5025">
+<package name="ADAFRUIT_R5025">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="51"/>
@@ -1393,7 +1430,7 @@ chip</description>
 <text x="-2.159" y="1.651" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.159" y="-2.921" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R5025W">
+<package name="ADAFRUIT_R5025W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip, wave soldering</description>
 <wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="21"/>
@@ -1410,7 +1447,7 @@ chip, wave soldering</description>
 <text x="-2.286" y="1.651" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.286" y="-2.921" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R6332">
+<package name="ADAFRUIT_R6332">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
@@ -1429,7 +1466,7 @@ chip</description>
 <text x="-2.794" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.794" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R6332W">
+<package name="ADAFRUIT_R6332W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip, wave soldering</description>
 <wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="21"/>
@@ -1446,7 +1483,7 @@ chip, wave soldering</description>
 <text x="-2.921" y="1.778" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.921" y="-3.048" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="RDH/15">
+<package name="ADAFRUIT_RDH/15">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type RDH, grid 15 mm</description>
 <wire x1="-7.62" y1="0" x2="-6.858" y2="0" width="0.8128" layer="51"/>
@@ -1479,7 +1516,7 @@ type RDH, grid 15 mm</description>
 <text x="-4.318" y="-0.5842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="4.572" y="-1.7272" size="1.27" layer="51" ratio="10" rot="R90">RDH</text>
 </package>
-<package name="V234/12">
+<package name="ADAFRUIT_V234/12">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type V234, grid 12.5 mm</description>
 <wire x1="-4.953" y1="1.524" x2="-4.699" y2="1.778" width="0.1524" layer="21" curve="-90"/>
@@ -1499,7 +1536,7 @@ type V234, grid 12.5 mm</description>
 <text x="-4.953" y="2.159" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="V235/17">
+<package name="ADAFRUIT_V235/17">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type V235, grid 17.78 mm</description>
 <wire x1="-6.731" y1="2.921" x2="6.731" y2="2.921" width="0.1524" layer="21"/>
@@ -1519,7 +1556,7 @@ type V235, grid 17.78 mm</description>
 <text x="-6.858" y="3.302" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.842" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="V526-0">
+<package name="ADAFRUIT_V526-0">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 type V526-0, grid 2.5 mm</description>
 <wire x1="-2.54" y1="1.016" x2="-2.286" y2="1.27" width="0.1524" layer="21" curve="-90"/>
@@ -1535,9 +1572,145 @@ type V526-0, grid 2.5 mm</description>
 <text x="-2.413" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.413" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="BREWPI_PQLYT-PADS-ONLY">
+<circle x="42.5" y="13.97" radius="3.5921" width="2.54" layer="51"/>
+<circle x="42.5" y="-13.97" radius="3.5921" width="2.54" layer="51"/>
+<wire x1="5" y1="22.25" x2="5" y2="-22.25" width="0.127" layer="51"/>
+<wire x1="35.8" y1="22.25" x2="35.8" y2="-22.25" width="0.127" layer="51"/>
+<wire x1="50" y1="22.25" x2="-6.5" y2="22.25" width="0.127" layer="51"/>
+<wire x1="50" y1="-22.25" x2="-6.5" y2="-22.25" width="0.127" layer="51"/>
+<wire x1="-6.5" y1="22.25" x2="-6.5" y2="-22.25" width="0.127" layer="51"/>
+<wire x1="50" y1="22.25" x2="50" y2="-22.25" width="0.127" layer="51"/>
+<wire x1="-6.35" y1="6.4" x2="-1.85" y2="6.4" width="0.127" layer="51"/>
+<wire x1="-6.35" y1="-6.4" x2="-1.85" y2="-6.4" width="0.127" layer="51"/>
+<wire x1="-1.85" y1="6.4" x2="-1.85" y2="-6.4" width="0.127" layer="51" curve="-180"/>
+<pad name="P3" x="0" y="-12.5" drill="3.5" diameter="6.5"/>
+<pad name="P4" x="0" y="12.5" drill="3.5" diameter="6.5"/>
+<text x="32" y="14" size="3.81" layer="51" rot="SR270" align="top-center">1~</text>
+<text x="32" y="-14" size="3.81" layer="51" rot="SR270" align="top-center">2~</text>
+<text x="8" y="12.7" size="3.81" layer="51" rot="SR270" align="bottom-center">4-</text>
+<text x="8" y="-12.7" size="3.81" layer="51" rot="SR270" align="bottom-center">3+</text>
+</package>
+<package name="BREWPI-SPARK-SHIELD-REVA-V04_SPARKFUN-LED_LED-0603">
+<wire x1="-0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
+<wire x1="0" y1="0.17" x2="0.46" y2="0.17" width="0.2032" layer="21"/>
+<wire x1="0" y1="0.17" x2="0.2338" y2="-0.14" width="0.2032" layer="21"/>
+<wire x1="-0.0254" y1="0.1546" x2="-0.2184" y2="-0.14" width="0.2032" layer="21"/>
+<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
+<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
+<text x="-0.6985" y="-0.889" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.0795" y="-1.016" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="BREWPI-SPARK-SHIELD-REVA-V04_SPARKFUN-LED_LED-1206">
+<wire x1="-1" y1="1" x2="-2.4" y2="1" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1" x2="-2.4" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1" x2="-1" y2="-1" width="0.2032" layer="21"/>
+<wire x1="1" y1="1" x2="2.4" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="1" x2="2.4" y2="-1" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1" x2="1" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0.7" x2="0.3" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0" x2="-0.3" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="-0.6" x2="0.3" y2="0" width="0.2032" layer="21"/>
+<smd name="A" x="-1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
+<smd name="C" x="1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
+<text x="-0.889" y="1.397" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.778" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="BREWPI-SPARK-SHIELD-REVA-V04_SPARKFUN-LED_LUXEON-REBEL">
+<smd name="ANODE" x="-1.39" y="2.63" dx="1.91" dy="2.03" layer="1" roundness="50"/>
+<smd name="CATHODE" x="1.39" y="2.63" dx="1.91" dy="2.03" layer="1" roundness="50"/>
+<smd name="P$3" x="0" y="-1.42" dx="4.68" dy="3.03" layer="1" roundness="50"/>
+<text x="-2.54" y="3.175" size="0.508" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="0.508" layer="27">&gt;VALUE</text>
+</package>
+<package name="BREWPI-SPARK-SHIELD-REVA-V04_WUERTH_ELEKTRONIK_EICAN_COMMUNICATION_CONNECTORS_615024143921">
+<description>WR-MJ Horizontal Plastic 4 Port 6P6C Modular Jack Tab Up, 24 pins</description>
+<wire x1="-24.55" y1="3.43" x2="24.55" y2="3.43" width="0.127" layer="51"/>
+<wire x1="24.55" y1="3.43" x2="24.55" y2="-9.57" width="0.127" layer="51"/>
+<wire x1="-24.55" y1="-9.57" x2="-24.55" y2="3.43" width="0.127" layer="51"/>
+<wire x1="-24.55" y1="3.43" x2="24.55" y2="3.43" width="0.127" layer="21"/>
+<wire x1="24.55" y1="3.43" x2="24.55" y2="-6.395" width="0.127" layer="21"/>
+<wire x1="24.55" y1="-9.57" x2="-24.55" y2="-9.57" width="0.127" layer="51"/>
+<wire x1="-24.55" y1="-6.395" x2="-24.55" y2="3.43" width="0.127" layer="21"/>
+<pad name="A1" x="-14.925" y="1.27" drill="0.9"/>
+<pad name="A2" x="-15.945" y="-1.27" drill="0.9"/>
+<pad name="A3" x="-16.965" y="1.27" drill="0.9"/>
+<pad name="A4" x="-17.985" y="-1.27" drill="0.9"/>
+<pad name="A5" x="-19.005" y="1.27" drill="0.9"/>
+<pad name="A6" x="-20.025" y="-1.27" drill="0.9"/>
+<pad name="B1" x="-3.275" y="1.27" drill="0.9"/>
+<pad name="B2" x="-4.295" y="-1.27" drill="0.9"/>
+<pad name="B3" x="-5.315" y="1.27" drill="0.9"/>
+<pad name="B4" x="-6.335" y="-1.27" drill="0.9"/>
+<pad name="B5" x="-7.355" y="1.27" drill="0.9"/>
+<pad name="B6" x="-8.375" y="-1.27" drill="0.9"/>
+<pad name="C1" x="8.375" y="1.27" drill="0.9"/>
+<pad name="C2" x="7.355" y="-1.27" drill="0.9"/>
+<pad name="C3" x="6.335" y="1.27" drill="0.9"/>
+<pad name="C4" x="5.315" y="-1.27" drill="0.9"/>
+<pad name="C5" x="4.295" y="1.27" drill="0.9"/>
+<pad name="C6" x="3.275" y="-1.27" drill="0.9"/>
+<pad name="D1" x="20.025" y="1.27" drill="0.9"/>
+<pad name="D2" x="19.005" y="-1.27" drill="0.9"/>
+<pad name="D3" x="17.985" y="1.27" drill="0.9"/>
+<pad name="D4" x="16.965" y="-1.27" drill="0.9"/>
+<pad name="D5" x="15.945" y="1.27" drill="0.9"/>
+<pad name="D6" x="14.925" y="-1.27" drill="0.9"/>
+<text x="-2.6375" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.24" y="-11.4725" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-15.15" y="0.635" size="1.27" layer="51">A1</text>
+<text x="-20.23" y="-1.905" size="1.27" layer="51">A6</text>
+<text x="-3.705" y="0.635" size="1.27" layer="51">B1</text>
+<text x="-9.42" y="-1.905" size="1.27" layer="51">B6</text>
+<text x="2.01" y="-1.905" size="1.27" layer="51">C6</text>
+<text x="7.725" y="0.635" size="1.27" layer="51">C1</text>
+<text x="12.805" y="-1.905" size="1.27" layer="51">D6</text>
+<text x="19.17" y="0.635" size="1.27" layer="51">D1</text>
+<hole x="-23.55" y="-3.57" drill="2.36"/>
+<hole x="23.55" y="-3.57" drill="2.36"/>
+</package>
 </packages>
 <symbols>
-<symbol name="R-US">
+<symbol name="1WIRE_1W">
+<pin name="1W" x="-5.08" y="0" visible="pad" length="middle" direction="pwr"/>
+<text x="-8.89" y="1.905" size="1.778" layer="95" font="vector">&gt;NAME</text>
+</symbol>
+<symbol name="1WIRE_GND">
+<pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<text x="-0.635" y="-0.635" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.905" y="-2.54" size="1.27" layer="95" font="vector" rot="MR270">GND</text>
+</symbol>
+<symbol name="1WIRE_OC_POWER">
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="0" width="0.254" layer="94"/>
+<wire x1="4.445" y1="0" x2="3.175" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.175" y1="-1.27" x2="3.175" y2="1.27" width="0.254" layer="94"/>
+<pin name="IO" x="10.16" y="0" length="middle" direction="oc" rot="R180"/>
+<text x="-5.08" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="WUERTH_ELEKTRONIK_EICAN_TERMINAL_BLOCKS_CONNECTORS_2/2">
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-1.905" y2="3.175" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="-1.905" y1="-0.635" x2="-1.905" y2="0.635" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.905" y1="3.175" x2="1.905" y2="1.905" width="0.254" layer="94" curve="-180" cap="flat"/>
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<text x="-5.08" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ADAFRUIT_R-US">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
 <wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
@@ -1552,16 +1725,212 @@ type V526-0, grid 2.5 mm</description>
 <text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="BREWPI_PHOTOTRIAC-SINGLESIDED">
+<rectangle x1="-6.35" y1="0.762" x2="-3.81" y2="1.016" layer="94"/>
+<rectangle x1="3.556" y1="0.508" x2="7.112" y2="0.762" layer="94"/>
+<rectangle x1="3.556" y1="-1.016" x2="7.112" y2="-0.762" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.334" y1="2.54" x2="7.874" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.334" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.334" y1="2.54" x2="5.334" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="5.334" y1="-1.016" x2="5.334" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.762" x2="-0.254" y2="-0.508" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-0.508" x2="-0.254" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="1.27" x2="1.651" y2="0" width="0.2032" layer="94"/>
+<pin name="A" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="K" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<text x="-7.62" y="6.35" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.81" y="-1.016"/>
+<vertex x="-6.35" y="-1.016"/>
+<vertex x="-5.08" y="0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="6.096" y="0.508"/>
+<vertex x="5.334" y="-0.762"/>
+<vertex x="6.858" y="-0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.778" y="0.508"/>
+<vertex x="1.27" y="-0.254"/>
+<vertex x="2.794" y="-0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="4.572" y="-0.762"/>
+<vertex x="5.334" y="0.508"/>
+<vertex x="3.81" y="0.508"/>
+</polygon>
+</symbol>
+<symbol name="BREWPI-SPARK-SHIELD-REVA-V04_SPARKFUN-LED_LED">
+<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
+<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="-2.159"/>
+<vertex x="-3.048" y="-1.27"/>
+<vertex x="-2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-3.302"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.413" y="-2.921"/>
+</polygon>
+</symbol>
+<symbol name="BREWPI-SPARK-SHIELD-REVA-V04_WUERTH_ELEKTRONIK_EICAN_COMMUNICATION_CONNECTORS_4X6P6C">
+<wire x1="-15.24" y1="2.54" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="20.32" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="20.32" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-17.78" x2="-15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="20.32" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-17.78" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<pin name="A1" x="-20.32" y="5.08" visible="pin" length="middle" direction="pas"/>
+<pin name="A2" x="-20.32" y="7.62" visible="pin" length="middle" direction="pas"/>
+<pin name="A3" x="-20.32" y="10.16" visible="pin" length="middle" direction="pas"/>
+<pin name="A4" x="-20.32" y="12.7" visible="pin" length="middle" direction="pas"/>
+<pin name="A5" x="-20.32" y="15.24" visible="pin" length="middle" direction="pas"/>
+<pin name="A6" x="-20.32" y="17.78" visible="pin" length="middle" direction="pas"/>
+<pin name="B1" x="-20.32" y="-15.24" visible="pin" length="middle" direction="pas"/>
+<pin name="B2" x="-20.32" y="-12.7" visible="pin" length="middle" direction="pas"/>
+<pin name="B3" x="-20.32" y="-10.16" visible="pin" length="middle" direction="pas"/>
+<pin name="B4" x="-20.32" y="-7.62" visible="pin" length="middle" direction="pas"/>
+<pin name="B5" x="-20.32" y="-5.08" visible="pin" length="middle" direction="pas"/>
+<pin name="B6" x="-20.32" y="-2.54" visible="pin" length="middle" direction="pas"/>
+<pin name="C1" x="0" y="5.08" visible="pin" length="middle" direction="pas"/>
+<pin name="C2" x="0" y="7.62" visible="pin" length="middle" direction="pas"/>
+<pin name="C3" x="0" y="10.16" visible="pin" length="middle" direction="pas"/>
+<pin name="C4" x="0" y="12.7" visible="pin" length="middle" direction="pas"/>
+<pin name="C5" x="0" y="15.24" visible="pin" length="middle" direction="pas"/>
+<pin name="C6" x="0" y="17.78" visible="pin" length="middle" direction="pas"/>
+<pin name="D1" x="0" y="-15.24" visible="pin" length="middle" direction="pas"/>
+<pin name="D2" x="0" y="-12.7" visible="pin" length="middle" direction="pas"/>
+<pin name="D3" x="0" y="-10.16" visible="pin" length="middle" direction="pas"/>
+<pin name="D4" x="0" y="-7.62" visible="pin" length="middle" direction="pas"/>
+<pin name="D5" x="0" y="-5.08" visible="pin" length="middle" direction="pas"/>
+<pin name="D6" x="0" y="-2.54" visible="pin" length="middle" direction="pas"/>
+<text x="-10.16" y="12.7" size="1.778" layer="94">A</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="94">B</text>
+<text x="10.16" y="12.7" size="1.778" layer="94">C</text>
+<text x="10.16" y="-7.62" size="1.778" layer="94">D</text>
+<text x="-5.08" y="21.59" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SUPPLY1_+5V">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="SUPPLY1_GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="R-US_" prefix="R" uservalue="yes">
-<description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
+<deviceset name="1WIRE_DS2413">
+<description>&lt;h2&gt;Dual Channel Addressable Switch&lt;/h2&gt;
+&lt;p&gt;This chip is similar to the DS2405 chip, but provides two PIO channels with 20mA sinking capability and an on-resistance of 20Ohm for each open drain output. Up to 28V can be switched.&lt;/p&gt;
+&lt;h3&gt;Note:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Both GND pins must be connected to 0V.&lt;/p&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Author:&lt;/h3&gt;
+Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;</description>
 <gates>
-<gate name="G$1" symbol="R-US" x="0" y="0"/>
+<gate name="A" symbol="1WIRE_OC_POWER" x="0" y="7.62"/>
+<gate name="B" symbol="1WIRE_OC_POWER" x="0" y="-5.08"/>
+<gate name="GND@0" symbol="1WIRE_GND" x="-15.24" y="12.7" addlevel="request"/>
+<gate name="GND@1" symbol="1WIRE_GND" x="-15.24" y="0" addlevel="request"/>
+<gate name="_1W" symbol="1WIRE_1W" x="0" y="17.78" addlevel="request"/>
 </gates>
 <devices>
-<device name="0204/2V" package="0204V">
+<device name="P" package="1WIRE_TSOC6">
 <connects>
+<connect gate="A" pin="IO" pad="6"/>
+<connect gate="B" pin="IO" pad="4"/>
+<connect gate="GND@0" pin="GND" pad="1"/>
+<connect gate="GND@1" pin="GND" pad="5"/>
+<connect gate="_1W" pin="1W" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WUERTH_ELEKTRONIK_EICAN_TERMINAL_BLOCKS_CONNECTORS_691411710002" prefix="K">
+<description>&lt;b&gt;WR-TBL Serie 411 - 5.0mm Screwless Horizontal Entry - 2 mm2 Wires, 2 Pins</description>
+<gates>
+<gate name="G$1" symbol="WUERTH_ELEKTRONIK_EICAN_TERMINAL_BLOCKS_CONNECTORS_2/2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WUERTH_ELEKTRONIK_EICAN_TERMINAL_BLOCKS_CONNECTORS_691411710002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WUERTH_ELEKTRONIK_EICAN_TERMINAL_BLOCKS_CONNECTORS_691411710002B">
+<description>&lt;B&gt;WR-TBL Terminal block - serie 411-5,0mm - Spring clamp/Screw less - Horizontal entry - 2 Pins&lt;/b&gt;=&gt;Code : Con_TBL_Screwless_5.00_691411710002B
+&lt;br&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_TBL_Screwless_5.00_6914117100xxB_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_TBL_Screwless_5.00_6914117100xxB_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/en/em/691_411_710_0xxB"&gt;http://katalog.we-online.de/en/em/691_411_710_0xxB&lt;/a&gt;&lt;p&gt;
+Created 2014-06-27, Karrer Zheng&lt;br&gt;
+2014 (C) Würth Elektronik</description>
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADAFRUIT_R-US_" prefix="R" uservalue="yes">
+<description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
+<gates>
+<gate name="G$1" symbol="ADAFRUIT_R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0204/2V" package="ADAFRUIT_0204V">
+<connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
@@ -1569,7 +1938,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0204/5" package="0204/5">
+<device name="0204/5" package="ADAFRUIT_0204/5">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1578,7 +1947,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0204/7" package="0204/7">
+<device name="0204/7" package="ADAFRUIT_0204/7">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1587,7 +1956,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0207/2V" package="0207/2V">
+<device name="0207/2V" package="ADAFRUIT_0207/2V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1596,7 +1965,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0207/5V" package="0207/5V">
+<device name="0207/5V" package="ADAFRUIT_0207/5V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1605,7 +1974,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0207/7" package="0207/7">
+<device name="0207/7" package="ADAFRUIT_0207/7">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1614,7 +1983,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0207/10" package="0207/10">
+<device name="0207/10" package="ADAFRUIT_0207/10">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1623,7 +1992,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0207/12" package="0207/12">
+<device name="0207/12" package="ADAFRUIT_0207/12">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1632,7 +2001,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0207/15" package="0207/15">
+<device name="0207/15" package="ADAFRUIT_0207/15">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1641,7 +2010,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0309/10" package="0309/10">
+<device name="0309/10" package="ADAFRUIT_0309/10">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1650,7 +2019,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0309/12" package="0309/12">
+<device name="0309/12" package="ADAFRUIT_0309/12">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1659,7 +2028,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0309/V" package="0309V">
+<device name="0309/V" package="ADAFRUIT_0309V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1668,7 +2037,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0411/3V" package="0411V">
+<device name="0411/3V" package="ADAFRUIT_0411V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1677,7 +2046,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0411/12" package="0411/12">
+<device name="0411/12" package="ADAFRUIT_0411/12">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1686,7 +2055,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0411/15" package="0411/15">
+<device name="0411/15" package="ADAFRUIT_0411/15">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1695,7 +2064,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0414/5V" package="0414V">
+<device name="0414/5V" package="ADAFRUIT_0414V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1704,7 +2073,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0414/15" package="0414/15">
+<device name="0414/15" package="ADAFRUIT_0414/15">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1713,7 +2082,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0613/5V" package="P0613V">
+<device name="0613/5V" package="ADAFRUIT_P0613V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1722,7 +2091,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0613/15" package="P0613/15">
+<device name="0613/15" package="ADAFRUIT_P0613/15">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1731,7 +2100,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0617/5V" package="0617V">
+<device name="0617/5V" package="ADAFRUIT_0617V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1740,7 +2109,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0617/17" package="0617/17">
+<device name="0617/17" package="ADAFRUIT_0617/17">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1749,7 +2118,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0617/22" package="0617/22">
+<device name="0617/22" package="ADAFRUIT_0617/22">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1758,7 +2127,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0817/7V" package="P0817V">
+<device name="0817/7V" package="ADAFRUIT_P0817V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1767,7 +2136,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0817/22" package="P0817/22">
+<device name="0817/22" package="ADAFRUIT_P0817/22">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1776,7 +2145,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0922/22" package="0922/22">
+<device name="0922/22" package="ADAFRUIT_0922/22">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1785,7 +2154,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0922V" package="0922V">
+<device name="0922V" package="ADAFRUIT_0922V">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1794,7 +2163,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="FLIPFLOP" package="0805-THM">
+<device name="FLIPFLOP" package="ADAFRUIT_0805-THM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1803,7 +2172,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="FLIPFLOP7" package="0805-THM-7">
+<device name="FLIPFLOP7" package="ADAFRUIT_0805-THM-7">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1812,7 +2181,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="M0805" package="M0805">
+<device name="M0805" package="ADAFRUIT_M0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1821,7 +2190,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="M1206" package="M1206">
+<device name="M1206" package="ADAFRUIT_M1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1830,7 +2199,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="M1406" package="M1406">
+<device name="M1406" package="ADAFRUIT_M1406">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1839,7 +2208,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="M2012" package="M2012">
+<device name="M2012" package="ADAFRUIT_M2012">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1848,7 +2217,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="M2309" package="M2309">
+<device name="M2309" package="ADAFRUIT_M2309">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1857,7 +2226,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="M3216" package="M3216">
+<device name="M3216" package="ADAFRUIT_M3216">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1866,7 +2235,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="M3516" package="M3516">
+<device name="M3516" package="ADAFRUIT_M3516">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1875,7 +2244,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="M5923" package="M5923">
+<device name="M5923" package="ADAFRUIT_M5923">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1884,7 +2253,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="MELF0102AX" package="MINI_MELF-0102AX">
+<device name="MELF0102AX" package="ADAFRUIT_MINI_MELF-0102AX">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1893,7 +2262,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="MELF0102R" package="MINI_MELF-0102R">
+<device name="MELF0102R" package="ADAFRUIT_MINI_MELF-0102R">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1902,7 +2271,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="MELF0102W" package="MINI_MELF-0102W">
+<device name="MELF0102W" package="ADAFRUIT_MINI_MELF-0102W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1911,7 +2280,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="MELF0204R" package="MINI_MELF-0204R">
+<device name="MELF0204R" package="ADAFRUIT_MINI_MELF-0204R">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1920,7 +2289,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="MELF0204W" package="MINI_MELF-0204W">
+<device name="MELF0204W" package="ADAFRUIT_MINI_MELF-0204W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1929,7 +2298,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="MELF0207R" package="MINI_MELF-0207R">
+<device name="MELF0207R" package="ADAFRUIT_MINI_MELF-0207R">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1938,7 +2307,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="MELF0207W" package="MINI_MELF-0207W">
+<device name="MELF0207W" package="ADAFRUIT_MINI_MELF-0207W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1947,7 +2316,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R0402" package="R0402">
+<device name="R0402" package="ADAFRUIT_R0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1956,7 +2325,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R0603" package="R0603">
+<device name="R0603" package="ADAFRUIT_R0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1965,7 +2334,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R0805" package="R0805">
+<device name="R0805" package="ADAFRUIT_R0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1974,7 +2343,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R0805W" package="R0805W">
+<device name="R0805W" package="ADAFRUIT_R0805W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1983,7 +2352,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R1005" package="R1005">
+<device name="R1005" package="ADAFRUIT_R1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1992,7 +2361,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R1206" package="R1206">
+<device name="R1206" package="ADAFRUIT_R1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2001,7 +2370,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R1206W" package="R1206W">
+<device name="R1206W" package="ADAFRUIT_R1206W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2010,7 +2379,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R1210" package="R1210">
+<device name="R1210" package="ADAFRUIT_R1210">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2019,7 +2388,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R1210W" package="R1210W">
+<device name="R1210W" package="ADAFRUIT_R1210W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2028,7 +2397,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R2010" package="R2010">
+<device name="R2010" package="ADAFRUIT_R2010">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2037,7 +2406,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R2010W" package="R2010W">
+<device name="R2010W" package="ADAFRUIT_R2010W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2046,7 +2415,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R2012" package="R2012">
+<device name="R2012" package="ADAFRUIT_R2012">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2055,7 +2424,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R2012W" package="R2012W">
+<device name="R2012W" package="ADAFRUIT_R2012W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2064,7 +2433,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R2512" package="R2512">
+<device name="R2512" package="ADAFRUIT_R2512">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2073,7 +2442,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R2512W" package="R2512W">
+<device name="R2512W" package="ADAFRUIT_R2512W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2082,7 +2451,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R3216" package="R3216">
+<device name="R3216" package="ADAFRUIT_R3216">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2091,7 +2460,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R3216W" package="R3216W">
+<device name="R3216W" package="ADAFRUIT_R3216W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2100,7 +2469,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R3225" package="R3225">
+<device name="R3225" package="ADAFRUIT_R3225">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2109,7 +2478,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R3225W" package="R3225W">
+<device name="R3225W" package="ADAFRUIT_R3225W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2118,7 +2487,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R5025" package="R5025">
+<device name="R5025" package="ADAFRUIT_R5025">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2127,7 +2496,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R5025W" package="R5025W">
+<device name="R5025W" package="ADAFRUIT_R5025W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2136,7 +2505,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R6332" package="R6332">
+<device name="R6332" package="ADAFRUIT_R6332">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2145,7 +2514,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R6332W" package="R6332W">
+<device name="R6332W" package="ADAFRUIT_R6332W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2154,7 +2523,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="RDH/15" package="RDH/15">
+<device name="RDH/15" package="ADAFRUIT_RDH/15">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2163,7 +2532,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="V234/12" package="V234/12">
+<device name="V234/12" package="ADAFRUIT_V234/12">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2172,7 +2541,7 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="V235/17" package="V235/17">
+<device name="V235/17" package="ADAFRUIT_V235/17">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2181,11 +2550,145 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="V526-0" package="V526-0">
+<device name="V526-0" package="ADAFRUIT_V526-0">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BREWPI_PQLYT-SINGLESIDE">
+<gates>
+<gate name="G$1" symbol="BREWPI_PHOTOTRIAC-SINGLESIDED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BREWPI_PQLYT-PADS-ONLY">
+<connects>
+<connect gate="G$1" pin="A" pad="P3"/>
+<connect gate="G$1" pin="K" pad="P4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BREWPI-SPARK-SHIELD-REVA-V04_SPARKFUN-LED_LED-BLUE" prefix="D" uservalue="yes">
+<description>&lt;H3&gt;Blue LEDs for production use&lt;/H3&gt;&lt;p&gt;
+Various blue LEDs stocked by SparkFun production&lt;br&gt;
+0603 - DIO-08575&lt;br&gt;
+Rebel - DIO-09553&lt;br&gt;
+1206 - DIO-09911</description>
+<gates>
+<gate name="G$1" symbol="BREWPI-SPARK-SHIELD-REVA-V04_SPARKFUN-LED_LED" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="0603" package="BREWPI-SPARK-SHIELD-REVA-V04_SPARKFUN-LED_LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-08575"/>
+<attribute name="VALUE" value="BLUE"/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="BREWPI-SPARK-SHIELD-REVA-V04_SPARKFUN-LED_LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09911"/>
+<attribute name="VALUE" value="BLUE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="REBEL" package="BREWPI-SPARK-SHIELD-REVA-V04_SPARKFUN-LED_LUXEON-REBEL">
+<connects>
+<connect gate="G$1" pin="A" pad="ANODE"/>
+<connect gate="G$1" pin="C" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09553"/>
+<attribute name="VALUE" value="BLUE"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BREWPI-SPARK-SHIELD-REVA-V04_WUERTH_ELEKTRONIK_EICAN_COMMUNICATION_CONNECTORS_615024143921" prefix="K">
+<description>&lt;b&gt;WR-MJ Horizontal Plastic 4 Port 6P6C Modular Jack Tab Up, 24 pins&lt;/b&gt;=&gt;Code : Con_I-O_MJ-H_Plastic_Up_615024143921
+&lt;br&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_I-O_MJ-H_Plastic_Up_615024143921_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_I-O_MJ-H_Plastic_Up_615024143921_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/en/em/615_024_143_921"&gt;http://katalog.we-online.de/en/em/615_024_143_921&lt;/a&gt;&lt;p&gt;
+Created 2014-07-10, Karrer Zheng&lt;br&gt;
+2014 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="BREWPI-SPARK-SHIELD-REVA-V04_WUERTH_ELEKTRONIK_EICAN_COMMUNICATION_CONNECTORS_4X6P6C" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="BREWPI-SPARK-SHIELD-REVA-V04_WUERTH_ELEKTRONIK_EICAN_COMMUNICATION_CONNECTORS_615024143921">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="B2" pad="B2"/>
+<connect gate="G$1" pin="B3" pad="B3"/>
+<connect gate="G$1" pin="B4" pad="B4"/>
+<connect gate="G$1" pin="B5" pad="B5"/>
+<connect gate="G$1" pin="B6" pad="B6"/>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+<connect gate="G$1" pin="C3" pad="C3"/>
+<connect gate="G$1" pin="C4" pad="C4"/>
+<connect gate="G$1" pin="C5" pad="C5"/>
+<connect gate="G$1" pin="C6" pad="C6"/>
+<connect gate="G$1" pin="D1" pad="D1"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D3" pad="D3"/>
+<connect gate="G$1" pin="D4" pad="D4"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SUPPLY1_+5V" prefix="P+">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="SUPPLY1_+5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SUPPLY1_GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="SUPPLY1_GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
